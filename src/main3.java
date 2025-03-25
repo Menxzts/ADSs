@@ -9,7 +9,6 @@ public class main3 {
         return isPrimeRecursive(n, divisor - 1);
     }
 
-    // Вспомогательный метод
     public static boolean isPrime(int n) {
         return isPrimeRecursive(n, n / 2);
     }
